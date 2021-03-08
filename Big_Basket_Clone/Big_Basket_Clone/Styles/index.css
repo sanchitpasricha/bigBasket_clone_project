@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#heading{
+    width: 100%;
+    height: 200px;
+}
+#heading img{
+    width: 210px;
+    margin-left: 7%;
+    height: 90px;
+    margin-top: 1%;
+}
+#heading_main1{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#heading_main1 p{
+    color: #b2b2b2;
+    font-size: 1.2rem;
+    margin-top: -110px;
+    margin-right: 20px;    
+}
+#login{
+    padding-top: 3px;
+}
+#login:hover{
+    color:#84C225;
+}
+#heading_main2{
+    margin-left: 25%;
+    margin-top: -70px;
+    display: flex;
+}
+#search_bar{
+    width: 600px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+#heading_main2 img{
+    width: 42px;
+    height: 36px;
+    margin-left: -1px;
+    margin-top: -1px;
+    opacity: 0.8;
+}
+#heading_main2 img:hover{
+    opacity: 1;
+}
+.mySlides{
+    display: none;
+    width: 100%;
+}
+#my_basket{
+    background-color: lightgray;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    font-size: 1.1rem;
+    font-family: verdana;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+#my_basket img{
+    width: 60px;
+    height: 60px;  
+    margin-right: 20px;
+}
+
+#dropdown_list{
+    width: 15%;
+    height: 18%;
+    background-color: #84c225;
+    padding-top: 5px;
+    margin-left: 120px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+#dropdown_list a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+#drop1{
+    display: none;
+    background-color: white;
+}
+#dropdown_list:hover #drop1{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -2px;
+}
+#dropdown_list:hover #drop1 a{
+    display: block;
+    color: black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+#dropdown_list:hover #drop1 a:first-child{
+    border-top: 1px solid black;
+}
+#drop1 a:hover{
+    background-color: lightgray;
+}
+#offers{
+    width:12%;
+    height: 16%;
+    margin-left: 350px;
+    margin-top: -35px;
+    border-radius: 3px;
+}
+#offers p{
+    font-size: 1.2rem;
+    padding: 6px;
+}
+#offers p:hover{
+    cursor: grab;
+    background-color: #84c225;
+    border-radius: 3px;
+    color: white;
+}
+#bodyy{
+    width: 100%;
+}
+#company{
+    display: flex;
+    justify-content: center;
+}
+#company img{
+    width: 12%;
+    margin: 1%;
+}
+#bank_offers{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#bank_offers_id{
+    margin-top: 20px;
+}
+#bank_offers_id img{
+    width: 20%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+}
+#bank_offers_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+#popular{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#popular_id{
+    margin-top: 20px;
+}
+#popular_id img{
+    width: 20%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+}
+#popular_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+#staples{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#staples_id{
+    margin-top: 20px;
+}
+#staples_id img{
+    width: 20%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+}
+#staples_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+#tea{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#tea_id{
+    margin-top: 20px;
+}
+#tea_id img{
+    width: 20%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+}
+#tea_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+#house{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#house_id{
+    margin-top: 20px;
+}
+#house_id img{
+    width: 20%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+}
+#house_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+#home{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#home_id{
+    margin-top: 20px;
+}
+#home_id img{
+    width: 12%;
+    margin-left: 15px;
+    border: 0.5px solid lightgray;
+}
+#home_id img:hover{
+    box-shadow: 3px 3px 10px 10px grey;
+}
+#brand{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#brand_id{
+    margin-top: 20px;
+}
+#brand_id img{
+    width: 12%;
+    margin-left: 15px;
+    border: 0.5px solid lightgray;
+}
+#brand_id img:hover{
+    box-shadow: 3px 3px 10px 10px grey;
+}
+
+.five_para{
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+    margin-top: 20px;
+}
+
+.fruits{
+    display: flex;  
+    margin-left: 125px;
+    margin-bottom: 70px;
+}
+
+.left_fruit, .right_fruit{
+    margin-top: 20px;
+}
+.fruits img{
+    border: 0.5px solid lightgray;
+    margin: 10px;
+}
+.fruits img:hover{
+     box-shadow: 3px 3px 10px 10px grey;
+}
+#read_me{
+    width: 82%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 50px auto;
+    /*display: none;*/
+    line-height: 1.5;
+    padding: 10px;
+    letter-spacing: 1.2;
+    font-family: verdana;
+}
+#more {display: none;}
+#read_me h2{
+    text-align: center;
+    font-size: 3rem;
+}
+#read_me button{
+    margin-left: 48%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+#read_me button:hover{
+    background-color: #84c225;
+    color: white;
+}
+#middle_banners{
+/*    background-color: red;*/
+    width: 90%;
+    height: 50vh;
+    margin: 5vw;
+    
+}
+#footer{
+/*    background-color: black;*/
+    width: 82%;
+    height: 90vh; 
+    margin-left: 9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#footer1{
+/*    background-color: blue;*/
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer2{
+/*    background-color: red;*/
+    width: 100%;
+    height: 35vh;
+    font-family: "arial";
+    
+}
+.inside_footer1{
+/*    background-color: yellow;*/
+    width: 20vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-family:"arial";
+    font-weight: 70;
+    letter-spacing: 1px;
+    font-size: 13px;
+    
+}
+.inside_footer1 ul li{
+    margin-top: 2vh;
+}
+.inside_footer1 ul li:hover{
+    color: lawngreen;
+}
+.inside_footer1 span{
+    font-size: 15px;
+    color: forestgreen;
+}
+hr{
+    margin-top: -10vh;
+}
+#footer2 span{
+    color: forestgreen;
+    
+}
+#footer2 p{
+    color: grey;
+    font-size: 13px;
+    margin-top: 2vh;
+    
+}
+#greetings{
+    background-color: grey;
+    width: 100%;
+    height: 3vh;
+    color: black;
+    font-family:monospace;
+    text-align: center;
+}
+#greetings span{
+    color: red;
+    font-size: 15px;
+}
